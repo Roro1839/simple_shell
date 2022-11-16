@@ -1,18 +1,32 @@
-simple_shell
-A simple UNIX command interpreter making as a final project of the low-level programming and algorithm quarter at ALX school of software engineering
+# Simple Shell
+This project is the most important of the first trimester of ALX School, is the consolidation of everything we learned in the quarter about System engineering & DevOps and Low-level programming & Algorithm. Using C programming language, we develop our own Shell.
 
-Overview
-Sodashy is a sh-compatible command language interpreter that executes commands read from the standard input or from a file.
+## Description
+The shell is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems. The shell is both an interactive command language and a scripting language, and is used by the operating system to control the execution of the system using shell scripts.
 
-Invocation
-Usage: Sodash Sodash is started with the standard input connected to the terminal. To start, compile all .c located in this repository by using this command:
+## Installation
+You can install the simple shell cloning this repo:
 
-gcc -Wall -Werror -Wextra -pedantic *.c -o sodash ./sodash Sodash is allowed to be invoked interactively and non-interactively. If sodash is invoked with standard input not connected to a terminal, it reads and executes received commands in order.
+- `$ git clone https://github.com/AishaKhalfan/simple_shell.git`
+Next you can compile the files with this command:
 
-Authors & Copyrights
-Paul Wainaina
+- `$ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh`
+finally you can run our Shell writing:
 
-Ronaldo Cheruiyot
 
-More information
-Sodash is a simple shell unix command interpreter that is part of the alx low level programming module at Alx School and is intended to emulate the basics sh shell. All the information given  in this README is based on the sodash and bash man (1) pages.
+## Built with
+This project was built and development with:
+
+- C programming language: is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, while a static type system prevents unintended operations.
+
+- VirtualBox: VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use.
+
+- Vagrant: Managing virtual machine environments.
+
+- Ubuntu 14.04 LTS: Operating system tester and working.
+
+- GCC: GNU Compiler version 4.8.4
+
+## Authors
+- Ronaldo Cheruiyot - Development and documentation
+- Paul M - Development and documentation
